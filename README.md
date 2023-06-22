@@ -1,7 +1,7 @@
 # Solvin-problem-SEP-with-Math-Numpy
 
 ### Resolvendo questão da lista 35 da cadeira de Sistemas Elétrico de Potência da Universidade de Pernambuco.
-### Abaixo está resolução comentada:
+### Abaixo está a resolução comentada:
 
 ~~~python
 import math,numpy
