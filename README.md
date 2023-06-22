@@ -1,6 +1,6 @@
 # Solvin-problem-SEP-with-Math-Numpy
 
-### Resolvendo questão da lista 35 da cadeira de Sistemas Elétrico de Potência da Universidade de Pernambuco.
+### Resolvendo questão da lista 35 da cadeira de Análise de Sistemas Elétrico de Potência, da Universidade de Pernambuco.
 ### Abaixo está a resolução comentada:
 
 ~~~python
