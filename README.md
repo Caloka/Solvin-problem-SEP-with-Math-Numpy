@@ -112,7 +112,7 @@ Yt = round(-(1/Zt),2)
 Ym1 = round(-(1/Zm1),2)
 Ym2 = round(-(1/Zm2),2)
 
-'''6° STEP:      Achando a admitância'''
+'''6° STEP:      Achando a Mtriz YBUS'''
 # O sistem possui 5 equações linearmente independentes: 6 - 1 = 5
 # Então nossa matriz será 5x5
 Lin1 = numpy.array([Yg1+Yt1,Yt1,0,0,0])
@@ -121,6 +121,6 @@ Lin3 = numpy.array([0,((Ylt1*Ylt2) / (Ylt1/Ylt2)),((Ylt1*Ylt2) / (Ylt1/Ylt2)) + 
 Lin4 = numpy.array([0,0,Yp + Ys, Ym1 + Ys + Yp + Yt, Ys + Yt])
 Lin5 = numpy.array([0,0,0,Ys + Yt,Ym2 + Yp + Yt + Ys])
 Elementos = numpy.array([Lin1,Lin2,Lin3,Lin4,Lin5])
-Matrix = numpy.array(Elementos)
-print(Matrix)
+Matrix_YBUS = numpy.array(Elementos)
+print(Matrix_YBUS)
 ~~~
